@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+  
+    /* box-sizing:border-box; */
+}
+.header{
+    box-sizing: border-box;
+    padding: 40px;
+    width:100%;
+    height:75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display:2px solid black;
+    background-color: #812593;
+    font-size: larger;
+    opacity:60px;   
+    color:whitesmoke;
+
+
+}
+.logo{
+    text-shadow: 5px 5px black;
+    font-size:40px;
+    margin-top:0;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 20px;
+}
+
+a,button{
+    font-size: 20px;
+    font-weight: 500;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.search{
+    background-color: rgb(216, 211, 211);
+    border: none;
+    border-radius:20px;
+    padding:10px 20px;
+    width:25%;
+}
+.search:focus{
+    border:1px solid rgb(243, 237, 237);
+    outline: none;
+}
+
+/* img{
+ width:100%;
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+
+.btn{
+    font-size: 15px;
+    padding:5px 20px;
+    border-radius:10px;
+    
+    
+}
+.middle{
+    border:2px solid black;
+ background-image: url("images/addidas.webp");
+ height:400px;
+ width: 1533px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ /* margin:0px auto; */
+   
+}
+
+.mid{
+    font-weight: bolder;
+    text-align: center;
+}
+ 
